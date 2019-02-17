@@ -1,7 +1,7 @@
 {
-  "name": "jacksonbreyer",
+  "name": "rachellenandjackson",
   "version": "1.0.0",
-  "description": "A personal site",
+  "description": "for the wedding!",
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --mode development --open",
