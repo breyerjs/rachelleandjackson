@@ -10,7 +10,7 @@ export default class QuickFacts extends React.Component{
         return (
             <div>
                 <div className={styles.sectionHeader}>
-                    Quick Facts
+                    Just The Facts
                 </div>
                 Date: TBD
                 <br/>
