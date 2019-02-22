@@ -12,11 +12,6 @@ export default class QuickFacts extends React.Component{
                 <div className={styles.sectionHeader}>
                     Quick Facts
                 </div>
-                Bride: TBD
-                <br/>
-                Groom: Jackson Breyer
-                <br/>
-                <br/>
                 Date: TBD
                 <br/>
                 <br/>
