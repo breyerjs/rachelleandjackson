@@ -15,7 +15,7 @@ export default class QuickFacts extends React.Component {
                 </div>
                 <div className={styles.factSection}>
                     {/* TODO: Google maps links here */}
-                    <span className={styles.factTitle}></span>Ceremony:
+                    <span className={styles.factTitle}>Ceremony:</span>
                     <br />
                     5:00 pm (please arrive by 4:30)
                     <br/>
