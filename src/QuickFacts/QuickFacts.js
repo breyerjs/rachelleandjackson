@@ -1,16 +1,12 @@
 import React from 'react';
 import styles from './QuickFacts.scss';
 
-export default class QuickFacts extends React.Component{
-    constructor(props) {
-        super(props);
-    }
-
-    render(){
+export default class QuickFacts extends React.Component {
+    render() {
         return (
             <div>
                 <div className={styles.sectionHeader}>
-                    Just The Facts
+                    Just the Facts
                 </div>
                 Date: TBD
                 <br/>
@@ -33,6 +29,9 @@ export default class QuickFacts extends React.Component{
                 Day of Wedding Shuttle:
                 <br/>
                 Runs from 8am to 9pm, from Place to Other Place
+                <br/>
+                <br/>
+                Parking is available at blah blah blah
                 <br/>
                 <br/>
                 Attire: Tuxedos all around!
