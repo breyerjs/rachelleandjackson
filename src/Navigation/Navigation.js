@@ -11,9 +11,9 @@ export default class Navigation extends React.Component {
     render() {
         return (
             <div className={styles.navMain}>
-                <a className={styles.navItem} onClick={() => scroller.scrollTo(this.props.scrollToNames.QUICK_FACTS, scrollToProps)}>Just the Facts</a>
-                <a className={styles.navItem} onClick={() => scroller.scrollTo(this.props.scrollToNames.GETTING_THERE, scrollToProps)}>Getting There</a>
-                <a className={styles.navItem} onClick={() => scroller.scrollTo(this.props.scrollToNames.ABOUT_US, scrollToProps)}>About Us</a>
+                <a className={styles.navItem} onClick={() => scroller.scrollTo(this.props.scrollToNames.QUICK_FACTS, scrollToProps)}>Just&nbsp;the&nbsp;Facts</a>
+                <a className={styles.navItem} onClick={() => scroller.scrollTo(this.props.scrollToNames.GETTING_THERE, scrollToProps)}>Getting&nbsp;There</a>
+                <a className={styles.navItem} onClick={() => scroller.scrollTo(this.props.scrollToNames.ABOUT_US, scrollToProps)}>About&nbsp;Us</a>
             </div>
         )
     }
