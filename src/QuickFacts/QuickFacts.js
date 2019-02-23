@@ -22,7 +22,7 @@ export default class QuickFacts extends React.Component {
                     100 Road Street, City Town, California, 94117.
                 </div>
                 <div className={styles.factSection}>
-                    <span className={styles.factTitle}>Reception</span> 
+                    <span className={styles.factTitle}>Reception:</span> 
                     <br/>
                     5:00 pm
                     <br/>

@@ -3,3 +3,12 @@
 .sectionHeader{
     @include sectionHeaderStyles;
 }
+
+.travelSection {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.travelTitle{
+    font-weight: bold;
+}
