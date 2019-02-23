@@ -1,0 +1,14 @@
+.navMain {
+    text-align: center
+}
+
+.navItem {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 15px;
+}
+
+.navItem:hover{
+    border-bottom: 2px solid #ff9595;
+    cursor: pointer;
+}
