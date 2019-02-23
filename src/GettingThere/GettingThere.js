@@ -6,7 +6,7 @@ export default class GettingThere extends React.Component {
         return (
             <div>
                 <div className={styles.sectionHeader}>
-                    How do I get there? Where do I stay?
+                    Travel and Accommodations
                 </div>
                 Airport: SFO
                 <br/>
@@ -19,6 +19,9 @@ export default class GettingThere extends React.Component {
                 <br/>
                 <br/>
                 Here's some fun narrative about the place.
+                <br/>
+                <br/>
+                Here are some things to do around town.
             </div>
         )
     }

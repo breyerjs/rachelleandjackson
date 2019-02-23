@@ -3,3 +3,12 @@
 .sectionHeader{
     @include sectionHeaderStyles;
 }
+
+.factSection {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.factTitle{
+    font-weight: bold;
+}

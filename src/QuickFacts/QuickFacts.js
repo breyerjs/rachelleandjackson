@@ -8,34 +8,39 @@ export default class QuickFacts extends React.Component {
                 <div className={styles.sectionHeader}>
                     Just the Facts
                 </div>
-                Date: TBD
-                <br/>
-                <br/>
-                {/* TODO: Google maps links here */}
-                Ceremony:
-                <br/>
-                5:00pm (please arrive by 4:30)
-                <br/>
-                100 Road Street, City Town, California, 94117.
-                <br/>
-                <br/>
-                Reception
-                <br/>
-                5:00pm
-                <br/>
-                100 Road Street, City Town, California, 94117.
-                <br/>
-                <br/>
-                Day of Wedding Shuttle:
-                <br/>
-                Runs from 8am to 9pm, from Place to Other Place
-                <br/>
-                <br/>
-                Parking is available at blah blah blah
-                <br/>
-                <br/>
-                Attire: Tuxedos all around!
-            </div>
+                <div className={styles.factSection}>
+                    <span className={styles.factTitle}>Date:</span> 
+                    <br/>
+                    1/1/1900 
+                </div>
+                <div className={styles.factSection}>
+                    {/* TODO: Google maps links here */}
+                    <span className={styles.factTitle}></span>Ceremony:
+                    <br />
+                    5:00 pm (please arrive by 4:30)
+                    <br/>
+                    100 Road Street, City Town, California, 94117.
+                </div>
+                <div className={styles.factSection}>
+                    <span className={styles.factTitle}>Reception</span> 
+                    <br/>
+                    5:00 pm
+                    <br/>
+                    100 Road Street, City Town, California, 94117.
+                </div>
+                <div className={styles.factSection}>
+                    <span className={styles.factTitle}>Day of Wedding Transportation:</span> 
+                    <br/>
+                    Shuttle Runs from 8am to 9pm, from Place to Other Place
+                    <br/>
+                    Parking is available at blah blah blah
+                </div>
+                <div className={styles.factSection}>
+                    <span className={styles.factTitle}>Attire:</span> 
+                    <br/>
+                    Tuxedos all around!
+                </div>
+            </div> 
         )
     }
 }

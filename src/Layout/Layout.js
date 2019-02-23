@@ -9,6 +9,7 @@ import QuickFacts from '../QuickFacts/QuickFacts';
 import GettingThere from '../GettingThere/GettingThere';
 import AboutUs from '../AboutUs/AboutUs';
 import Navigation from '../Navigation/Navigation';
+import Registry from '../Registry/Registry';
 
 const withScroller = (elementName, componentToWrap) => {
     return (
@@ -19,8 +20,8 @@ const withScroller = (elementName, componentToWrap) => {
 const scrollToNames = {
     QUICK_FACTS: 'quickFacts',
     GETTING_THERE: 'gettingThere',
-    ABOUT_US: 'aboutUs',
     REGISTRY: 'registry',
+    ABOUT_US: 'aboutUs',
 }
 
 export default class Layout extends React.Component {
@@ -28,12 +29,14 @@ export default class Layout extends React.Component {
         const quickFacts = withScroller(scrollToNames.QUICK_FACTS, <QuickFacts />);
         const gettingThere = withScroller(scrollToNames.GETTING_THERE, <GettingThere />);
         const aboutUs = withScroller(scrollToNames.ABOUT_US, <AboutUs />);
+        const registry = withScroller(scrollToNames.REGISTRY, <Registry />);
         return (
             <div>
                 <Header />
                 <Navigation scrollToNames={scrollToNames} />
                 {quickFacts}
                 {gettingThere}
+                {registry}
                 {aboutUs}
             </div>
         )
