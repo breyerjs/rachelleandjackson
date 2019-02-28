@@ -30,7 +30,7 @@ export default class AboutUs extends React.Component {
                     They chatted constantly on Slack, producing enough data that Jackson was able to tap into his studies and programmatically analyze their writing styles. He conclusively showed that when Rachelle typed "haha", it tended to include three or more "ha"s. By contrast, his own were almost uniformly two "ha"s. Rachelle did not find this as entertaining as Jackson. 
                 </p>
                 <p>
-                    During his summer break, Jackson took an internship in San Francisco. Midway through, Rachelle came to visit and they went hiking in Yosemite. They were awestruck by the park's towering granite cliffs and unparalleled beauty. After Jackson finished graduate school, it was that memory that spurred them to go live in San Francisco. 
+                    During his summer break, Jackson took an internship in San Francisco. Midway through, Rachelle came to visit and they went hiking in Yosemite. They were awestruck by the park's towering granite cliffs and rugged beauty. After Jackson finished graduate school, it was that memory that spurred them to go live in San Francisco. 
                 </p>
                 <p>
                     San Francisco suited them well. They both thrived professionally and enjoyed the city's character. Over several years they grew into their careers and their hobbies. They got a cat, Penny.
