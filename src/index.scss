@@ -1,12 +1,10 @@
 /* Global styles */
 html, body {
     font-family: 'EB Garamond', serif;
-    height: 100%;
     margin: 0;
     background: #efefef;
     // Top right bottom left
-    padding: 10px 10% 400px 10%;
-
+    padding: 10px 10% 50px 10%;
 }
 
 section {
@@ -22,7 +20,7 @@ a:visited {
 }
 
 @mixin sectionHeaderStyles {
-    padding-top:30px;
+    padding-top:50px;
     padding-bottom: 5px;
     font-size: 24px;
 }

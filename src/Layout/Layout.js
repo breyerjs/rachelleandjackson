@@ -24,12 +24,13 @@ const scrollToNames = {
     ABOUT_US: 'aboutUs',
 }
 
+const quickFacts = withScroller(scrollToNames.QUICK_FACTS, <QuickFacts />);
+const gettingThere = withScroller(scrollToNames.GETTING_THERE, <GettingThere />);
+const aboutUs = withScroller(scrollToNames.ABOUT_US, <AboutUs />);
+const registry = withScroller(scrollToNames.REGISTRY, <Registry />);
+
 export default class Layout extends React.Component {
     render() {
-        const quickFacts = withScroller(scrollToNames.QUICK_FACTS, <QuickFacts />);
-        const gettingThere = withScroller(scrollToNames.GETTING_THERE, <GettingThere />);
-        const aboutUs = withScroller(scrollToNames.ABOUT_US, <AboutUs />);
-        const registry = withScroller(scrollToNames.REGISTRY, <Registry />);
         return (
             <div>
                 <Header />
