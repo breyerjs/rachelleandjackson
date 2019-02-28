@@ -24,10 +24,13 @@ export default class AboutUs extends React.Component {
                     Just a year later, Jackson was accepted to graduate school at Brandeis University, outside of Boston. Rachelle's preferred climate skews warmer, and so the two were back to long-distance-dating.
                 </p>
                 <p>
-                    They made it work. The visits trended more monthly than weekly, but they set up other ways of keeping in touch. They would often leave their phone calls open all night, speaking intermittently as if they were still living together.
+                    They made it work. The visits trended more monthly than weekly, but they set up other ways of keeping in touch. They would often leave their phone calls open all night, speaking intermittently as if they were still living together. 
                 </p>
                 <p>
-                    During his summer break, Jackson took an internship in San Francisco. Midway through, Rachelle came to visit and they went hiking in Yosemite. They were both awed by the park's natural beauty. After Jackson finished graduate school, it was that memory that spurred them to go and live in San Francisco. 
+                    They chatted constantly on Slack, producing enough data that Jackson was able to tap into his studies and programmatically analyze their writing styles. He conclusively showed that when Rachelle typed "haha", it tended to include three or more "ha"s. By contrast, his own were almost uniformly two "ha"s. Rachelle did not find this as entertaining as Jackson. 
+                </p>
+                <p>
+                    During his summer break, Jackson took an internship in San Francisco. Midway through, Rachelle came to visit and they went hiking in Yosemite. They were awestruck by the park's towering granite cliffs and unparalleled beauty. After Jackson finished graduate school, it was that memory that spurred them to go live in San Francisco. 
                 </p>
                 <p>
                     San Francisco suited them well. They both thrived professionally and enjoyed the city's character. Over several years they grew into their careers and their hobbies. They got a cat, Penny.
