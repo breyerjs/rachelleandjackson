@@ -1,6 +1,13 @@
 /* Global styles */
 html, body {
-    font-family: 'EB Garamond', serif;
+    // font-family: 'EB Garamond', serif;
+    font-family: 'Cardo', serif;
+
+    // Gotta make that font look good
+    text-rendering: geometricPrecision;
+
+    font-size: 16px;
+    line-height: 24px;
     margin: 0;
     background: #efefef;
     // Top right bottom left
