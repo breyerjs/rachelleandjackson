@@ -11,7 +11,7 @@ export default class QuickFacts extends React.Component {
                 <div className={styles.factSection}>
                     <span className={styles.factTitle}>Date:</span> 
                     <br/>
-                    January 1st, 2035
+                    August 22nd, 2020
                 </div>
                 <div className={styles.factSection}>
                     {/* TODO: Google maps links here */}
