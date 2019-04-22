@@ -25,12 +25,14 @@ export default class GettingThere extends React.Component {
                 <div className={styles.travelSection}>
                     <span className={styles.travelTitle}>About the Place:</span>
                     <br/>
-                    Here's some fun narrative about the place.
+                    The Headlands Center for the Arts is a ____
                 </div>
                 <div className={styles.travelSection}>
                     <span className={styles.travelTitle}>Enjoying the Visit:</span>
                     <br/>
                     Here are some things to do around town.
+                    <br/>
+                    Here are some must-hit restaurants.
                 </div>
             </div>
         )

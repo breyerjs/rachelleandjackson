@@ -11,29 +11,31 @@ export default class QuickFacts extends React.Component {
                 <div className={styles.factSection}>
                     <span className={styles.factTitle}>Date:</span> 
                     <br/>
-                    August 22nd, 2020
+                    Saturday August 22, 2020
                 </div>
                 <div className={styles.factSection}>
                     {/* TODO: Google maps links here */}
                     <span className={styles.factTitle}>Ceremony:</span>
                     <br />
-                    5:00 pm (please arrive by 4:30)
+                    Time TBA
                     <br/>
-                    100 Road Street, City Town, California, 94117.
+                    Headlands Center for the Arts
+                    <br />
+                    944 Simmonds Rd, Sausalito, CA 94965
                 </div>
                 <div className={styles.factSection}>
                     <span className={styles.factTitle}>Reception:</span> 
                     <br/>
-                    5:00 pm
-                    <br/>
-                    100 Road Street, City Town, California, 94117.
+                    Headlands Center for the Arts
+                    <br />
+                    944 Simmonds Rd, Sausalito, CA 94965
                 </div>
                 <div className={styles.factSection}>
                     <span className={styles.factTitle}>Day of Wedding Transportation:</span> 
                     <br/>
-                    Shuttle Runs from 8am to 9pm, from Place to Other Place
+                    Shuttle schedule TBA
                     <br/>
-                    Parking is available at blah blah blah
+                    Parking TBA
                 </div>
                 <div className={styles.factSection}>
                     <span className={styles.factTitle}>Attire:</span> 
