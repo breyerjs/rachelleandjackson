@@ -30,9 +30,14 @@ export default class GettingThere extends React.Component {
                 <div className={styles.travelSection}>
                     <span className={styles.travelTitle}>Enjoying the Visit:</span>
                     <br/>
-                    Here are some things to do around town.
+                    <a href="https://www.yelp.com/collection/rK7LzLK3L5VgzyfqfDixdA" target="_blank">Click here for some things to do around town.</a>
                     <br/>
-                    Here are some must-hit restaurants.
+                    <a href="https://www.yelp.com/collection/ObkpXubOQAqMAnu4gJrSzQ" target="_blank">Click here for some must-hit restaurants, bars, and food.</a>
+                </div>
+                <div className={styles.travelSection}>
+                    <span className={styles.travelTitle}>Some Notes on Weather:</span>
+                    <br/>
+                    Yes, this wedding is in California. And yes, it's in the summer. But it might be chilly, especially as the sun sets! We'd suggest you plan on bringing layers.
                 </div>
             </div>
         )
