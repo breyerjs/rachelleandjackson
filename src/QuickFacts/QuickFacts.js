@@ -42,6 +42,11 @@ export default class QuickFacts extends React.Component {
                     <br/>
                     Tuxedos all around!
                 </div>
+                <div className={styles.factSection}>
+                    <span className={styles.factTitle}>$#%&:</span> 
+                    <br/>
+                    There is no cellular service at the venue. Please plan accordingly. 
+                </div>
             </div> 
         )
     }
