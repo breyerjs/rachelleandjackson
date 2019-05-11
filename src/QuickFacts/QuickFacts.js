@@ -8,7 +8,7 @@ export default class QuickFacts extends React.Component {
                 <div className={styles.sectionHeader}>
                     Just the Facts
                 </div>
-                <div className={styles.factSectionRow}>
+                <div className={styles.factSectionMain}>
                     <div className={styles.factSection}>
                         <div className={styles.factTitle}>Date:</div> 
                         Saturday August 22, 2020
