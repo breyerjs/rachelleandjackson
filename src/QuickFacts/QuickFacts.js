@@ -8,44 +8,34 @@ export default class QuickFacts extends React.Component {
                 <div className={styles.sectionHeader}>
                     Just the Facts
                 </div>
-                <div className={styles.factSection}>
-                    <span className={styles.factTitle}>Date:</span> 
-                    <br/>
-                    Saturday August 22, 2020
-                </div>
-                <div className={styles.factSection}>
-                    {/* TODO: Google maps links here */}
-                    <span className={styles.factTitle}>Ceremony:</span>
-                    <br />
-                    Time TBA
-                    <br/>
-                    Headlands Center for the Arts
-                    <br />
-                    944 Simmonds Rd, Sausalito, CA 94965
-                </div>
-                <div className={styles.factSection}>
-                    <span className={styles.factTitle}>Reception:</span> 
-                    <br/>
-                    Headlands Center for the Arts
-                    <br />
-                    944 Simmonds Rd, Sausalito, CA 94965
-                </div>
-                <div className={styles.factSection}>
-                    <span className={styles.factTitle}>Day of Wedding Transportation:</span> 
-                    <br/>
-                    Shuttle schedule TBA
-                    <br/>
-                    Parking TBA
-                </div>
-                <div className={styles.factSection}>
-                    <span className={styles.factTitle}>Attire:</span> 
-                    <br/>
-                    Tuxedos all around!
-                </div>
-                <div className={styles.factSection}>
-                    <span className={styles.factTitle}>$#%&:</span> 
-                    <br/>
-                    There is no cellular service at the venue. Please plan accordingly when considering rideshares or mid-wedding entertainment.
+                <div className={styles.factSectionRow}>
+                    <div className={styles.factSection}>
+                        <div className={styles.factTitle}>Date:</div> 
+                        Saturday August 22, 2020
+                        <br />
+                        Time TBA
+                    </div>
+                    <div className={styles.factSection}>
+                        {/* TODO: Google maps links here */}
+                        <div className={styles.factTitle}>Venue and Reception:</div>
+                        Headlands Center for the Arts
+                        <br />
+                        944 Simmonds Rd, Sausalito, CA 94965
+                    </div>
+                    <div className={styles.factSection}>
+                        <div className={styles.factTitle}>Day of Wedding Transportation:</div> 
+                        Shuttle schedule TBA
+                        <br/>
+                        Parking TBA
+                    </div>
+                    <div className={styles.factSection}>
+                        <div className={styles.factTitle}>Attire:</div> 
+                        Semi-formal. Think casual but elegant.
+                    </div>
+                    <div className={styles.bottomFactSection}>
+                        <div className={styles.factTitle}>$#%&:</div> 
+                        There is no cellular service at the venue, meaning rideshares are impossible to come by. Please plan accordingly when considering transportation or mid-wedding entertainment.
+                    </div>
                 </div>
             </div> 
         )

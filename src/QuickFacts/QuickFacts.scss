@@ -4,11 +4,33 @@
     @include sectionHeaderStyles;
 }
 
+.factSectionRow {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
+@mixin factSectionCommon {
+    padding: 20px;
+    padding-left: 0px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    flex-grow: 2;
+    width: 300px;
+}
+
 .factSection {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    @include factSectionCommon();
+}
+
+.bottomFactSection {
+    @include factSectionCommon();
 }
 
 .factTitle{
     font-weight: bold;
+    margin-bottom: 10px;
+    border-bottom: 1px dotted grey;
+
 }
