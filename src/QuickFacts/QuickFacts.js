@@ -34,7 +34,7 @@ export default class QuickFacts extends React.Component {
                     </div>
                     <div className={styles.bottomFactSection}>
                         <div className={styles.factTitle}>$#%&:</div> 
-                        There is no cellular service at the venue, meaning rideshares are impossible to come by. Please plan accordingly when considering transportation or mid-wedding entertainment.
+                        There is no cellular service at the venue, meaning rideshares are not an option. Please plan accordingly when considering transportation or mid-wedding entertainment.
                     </div>
                 </div>
             </div> 
