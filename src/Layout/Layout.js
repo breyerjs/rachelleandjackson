@@ -32,7 +32,7 @@ const registry = withScroller(scrollToNames.REGISTRY, <Registry />);
 export default class Layout extends React.Component {
     render() {
         return (
-            <div>
+            <div className={styles.layoutContainer}>
                 <Header />
                 <Navigation scrollToNames={scrollToNames} />
                 {quickFacts}
