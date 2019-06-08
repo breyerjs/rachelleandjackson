@@ -1,6 +1,12 @@
+@font-face {
+    font-family: 'Din Sans';
+    src: url(/src/font/DINPro.otf) format('opentype');
+}
+
 /* Global styles */
 html, body {
-    font-family: 'Cardo', serif;
+    // font-family: 'Cardo', serif;
+    font-family: 'Din Sans', sans-serif;
 
 
     // Gotta make that font look good
@@ -29,4 +35,5 @@ a:visited {
     padding-top: 1.75em;
     padding-bottom: 0.3em;
     font-size: 24px;
+    font-weight: bold;
 }

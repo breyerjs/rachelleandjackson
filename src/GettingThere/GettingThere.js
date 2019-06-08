@@ -6,7 +6,7 @@ export default class GettingThere extends React.Component {
         return (
             <div>
                 <div className={styles.sectionHeader}>
-                    Travel and Accommodations
+                    + Journey
                 </div>
                 <div className={styles.gettingThereMain}>
                     <div className={styles.travelSection}>
