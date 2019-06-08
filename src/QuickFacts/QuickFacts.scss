@@ -10,8 +10,7 @@
     flex-direction: row;
 }
 
-
-@mixin factSectionCommon {
+.factSection {
     padding: 1.5em;
     padding-left: 0px;
     margin-right: 2em;
@@ -19,13 +18,6 @@
     width: 20em;
 }
 
-.factSection {
-    @include factSectionCommon();
-}
-
-.bottomFactSection {
-    @include factSectionCommon();
-}
 
 .factTitle{
     font-weight: bold;

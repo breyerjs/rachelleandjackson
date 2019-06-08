@@ -28,7 +28,7 @@ export default class Navigation extends React.Component {
             return <div></div>
         }
         return (
-            <div className={styles.navMain}>
+            <div>
                 <a className={styles.navItem} onClick={() => scroller.scrollTo(this.props.scrollToNames.QUICK_FACTS, scrollToProps)}>Facts</a>
                 <a className={styles.navItem} onClick={() => scroller.scrollTo(this.props.scrollToNames.GETTING_THERE, scrollToProps)}>Journey</a>
                 <a className={styles.navItem} onClick={() => scroller.scrollTo(this.props.scrollToNames.REGISTRY, scrollToProps)}>Registry</a>
