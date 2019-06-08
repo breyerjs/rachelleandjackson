@@ -66,6 +66,7 @@ module.exports = {
         new CopyWebpackPlugin([
             // relative path is from src
             { from: './src/favicon.ico' },
+            { from: './src/font', to: 'fonts/' },
         ]),
     ]
 };
