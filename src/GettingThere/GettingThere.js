@@ -27,7 +27,7 @@ export default class GettingThere extends React.Component {
                     </div>
                     <div className={styles.travelSection}>
                         <div className={styles.travelTitle}>Entertainment</div>
-                        Feel free to peruse our lists of <a href="https://www.yelp.com/collection/rK7LzLK3L5VgzyfqfDixdA" target="_blank">things to do around the area.</a> or <a href="https://www.yelp.com/collection/ObkpXubOQAqMAnu4gJrSzQ" target="_blank">recommended restaurants and bars.</a>
+                        Feel free to peruse our lists of <a href="https://www.yelp.com/collection/rK7LzLK3L5VgzyfqfDixdA" target="_blank">things to do around the area</a> or <a href="https://www.yelp.com/collection/ObkpXubOQAqMAnu4gJrSzQ" target="_blank">recommended restaurants and bars.</a>
                     </div>
                     <div className={styles.travelSection}>
                         <div className={styles.travelTitle}>Venue History</div>
