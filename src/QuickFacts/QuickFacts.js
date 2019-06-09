@@ -17,7 +17,7 @@ export default class QuickFacts extends React.Component {
                     </div>
                     <div className={styles.factSection}>
                         {/* TODO: Google maps links here */}
-                        <div className={styles.factTitle}>Venue</div>
+                        <div className={styles.factTitle}>Location</div>
                         Headlands Center for the Arts
                         <br />
                         944 Simmonds Rd, Sausalito, CA 94965
@@ -30,7 +30,7 @@ export default class QuickFacts extends React.Component {
                     </div>
                     <div className={styles.factSection}>
                         <div className={styles.factTitle}>Attire</div> 
-                        Semi-formal. Think casual but elegant.
+                        Semi-formal. Think casual but elegant. But hey, it's California. No one's getting too up in arms about what you wear.
                     </div>
                     <div className={styles.factSection}>
                         <div className={styles.factTitle}>"..."</div> 
