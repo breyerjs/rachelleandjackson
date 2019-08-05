@@ -17,9 +17,9 @@ export default class GettingThere extends React.Component {
                     </div>
                     <div className={styles.travelSection}>
                         <div className={styles.travelTitle}>Hotels</div>
-                        We're staying in blah blah blah. 
+                        Suggested hotels TBA.
                         <br/>
-                        Other good options are anything near blah blah blah
+                        Check back later for more info!
                     </div>
                     <div className={styles.travelSection}>
                         <div className={styles.travelTitle}>Weather</div>
@@ -27,13 +27,13 @@ export default class GettingThere extends React.Component {
                     </div>
                     <div className={styles.travelSection}>
                         <div className={styles.travelTitle}>Entertainment</div>
-                        Feel free to peruse our lists of <a href="https://www.yelp.com/collection/rK7LzLK3L5VgzyfqfDixdA" target="_blank">things to do around the area</a> or <a href="https://www.yelp.com/collection/ObkpXubOQAqMAnu4gJrSzQ" target="_blank">recommended restaurants and bars.</a>
+                        Feel free to peruse our lists of <a href="https://www.yelp.com/collection/rK7LzLK3L5VgzyfqfDixdA" target="_blank">things to do</a> or <a href="https://www.yelp.com/collection/ObkpXubOQAqMAnu4gJrSzQ" target="_blank">restaurants and bars.</a>
                     </div>
                     <div className={styles.travelSection}>
                         <div className={styles.travelTitle}>Venue History</div>
                         The Headlands Center for the Arts is a repurposed US Army building that was active from 1913 to 1950. Situated on the Pacific Ocean, it helped defend the San Francisco Bay. The building was decommissioned in 1972 and became the Headlands Center for the Arts in 1982. Just a few years later, in 2019, Rachelle and Jackson visited the site and remarked that it would be a good spot to get married.
                         <br /><br />
-                        The venue is located in the Marin Headlands National Park, just across the Golden Gate Bridge from San Francisco. Just down the street is Rodeo Beach, where you'll find great spots for hiking and picnicking. 
+                        The venue is located in the Marin Headlands National Park, across the Golden Gate Bridge from San Francisco. Down the street is Rodeo Beach, where you'll find great spots for hiking and picnicking. 
                     </div>
                 </div>
             </div>
