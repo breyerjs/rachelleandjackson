@@ -13,7 +13,7 @@ export default class Registry extends React.Component {
                 <div className={styles.sectionHeader}>
                     + Registry
                 </div>
-                Our registry is located here at this link.
+                Registry link coming soon!
             </div>
         )
     }
