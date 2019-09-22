@@ -67,6 +67,8 @@ module.exports = {
             // relative path is from src
             { from: './src/favicon.ico' },
             { from: './src/font', to: 'src/font/' },
+            { from: './src/img', to: 'src/img/' },
+
         ]),
     ]
 };
