@@ -23,7 +23,7 @@ export default class GettingThere extends React.Component {
                     </div>
                     <div className={styles.travelSection}>
                         <div className={styles.travelTitle}>Weather</div>
-                        Yes, this wedding is in California. And yes, it's in the summer. But please note that it gets chilly as the sun sets! We'd suggest you bring layers.
+                        Yes, this wedding is in California. But it gets chilly as the fog rolls in! We'd suggest you bring layers.
                     </div>
                     <div className={styles.travelSection}>
                         <div className={styles.travelTitle}>Entertainment</div>

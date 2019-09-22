@@ -18,19 +18,20 @@ export default class QuickFacts extends React.Component {
                     <div className={styles.factSection}>
                         {/* TODO: Google maps links here */}
                         <div className={styles.factTitle}>Location</div>
-                        Headlands Center for the Arts
+                        <a href="https://goo.gl/maps/Q27RgUc4VqkVPvuz9" target="_blank">Headlands Center for the Arts</a>
                         <br />
                         944 Simmonds Rd, Sausalito, CA 94965
+                        <br />
                     </div>
                     <div className={styles.factSection}>
                         <div className={styles.factTitle}>Transportation</div> 
-                        Shuttle schedule TBA
+                        <b>Shuttle schedule:</b> TBA
                         <br/>
-                        Parking TBA
+                        <b>Parking:</b> There's parking behind the venue as well as at the <a href="https://goo.gl/maps/VYh8YyxemrQNY31P9" target="_blank">visitor center</a> down the hill.
                     </div>
                     <div className={styles.factSection}>
                         <div className={styles.factTitle}>Attire</div> 
-                        Semi-formal. Think casual but elegant. But hey, it's California. No one's getting too up in arms about what you wear.
+                        Semi-formal. Think casual but elegant.
                     </div>
                     <div className={styles.factSection}>
                         <div className={styles.factTitle}>"..."</div> 
