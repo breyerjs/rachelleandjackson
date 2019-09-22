@@ -10,6 +10,7 @@ import GettingThere from '../GettingThere/GettingThere';
 import AboutUs from '../AboutUs/AboutUs';
 import Navigation from '../Navigation/Navigation';
 import Registry from '../Registry/Registry';
+import Footer from '../Footer/Footer';
 
 const withScroller = (elementName, componentToWrap) => {
     return (
@@ -39,6 +40,7 @@ export default class Layout extends React.Component {
                 {gettingThere}
                 {registry}
                 {aboutUs}
+                <Footer />
             </div>
         )
     }

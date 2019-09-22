@@ -31,7 +31,7 @@ export default class QuickFacts extends React.Component {
                     </div>
                     <div className={styles.factSection}>
                         <div className={styles.factTitle}>Attire</div> 
-                        Semi-formal. Think casual but elegant.
+                        Semi-formal. Think casual but elegant, but just make sure to look nice and you're all set.
                     </div>
                     <div className={styles.factSection}>
                         <div className={styles.factTitle}>"..."</div> 
