@@ -33,7 +33,7 @@ export default class GettingThere extends React.Component {
                         <div className={styles.travelTitle}>Venue History</div>
                         The <a href="https://www.google.com/search?q=headlands+center+for+the+arts&sxsrf=ACYBGNTTkB7PEkQXgZFGPvmXjgCTNZTn0Q:1569173000466&source=lnms&tbm=isch&sa=X&ved=0ahUKEwinsKL6-OTkAhWJrJ4KHdh8A-sQ_AUIFCgD&biw=1440&bih=821" target="_blank">Headlands Center for the Arts</a> is a repurposed US Army building that was active from 1913 to 1950. Situated on the Pacific Ocean, it helped defend the San Francisco Bay. The building was decommissioned in 1972 and became the Headlands Center for the Arts in 1982. Just a few years later, in 2019, Rachelle and Jackson visited the site and remarked that it would be a good spot to get married.
                         <br /><br />
-                        The venue is located in the Marin Headlands National Park, across the Golden Gate Bridge from San Francisco. Down the street is Rodeo Beach, where you'll find great spots for hiking and picnicking. 
+                        The venue is located in the Marin Headlands and sits just across the Golden Gate Bridge from San Francisco. Down the street is Rodeo Beach, where you'll find great spots for hiking and picnicking. 
                     </div>
                 </div>
             </div>
