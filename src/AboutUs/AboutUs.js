@@ -36,7 +36,7 @@ export default class AboutUs extends React.Component {
                     San Francisco suited them well. They both thrived professionally and enjoyed the city's character. Over several years they grew into their careers and their hobbies. They got a cat, Penny.
                 </p>
                 <p>
-                    Nearly nine years after they began dating, the two took another trip to Yosemite. In a meadow underneath Half-Dome, Glacier Point, and Yosemite Falls, Jackson finally proposed. 
+                    Nearly nine years after they began dating, the two took another trip to Yosemite. In a meadow underneath Half-Dome, Glacier Point, and Yosemite Falls, <a href="https://photos.app.goo.gl/vdcZvrT6NKJ8ZgdM6" target="_blank">Jackson finally proposed.</a> 
                 </p>
                 <p>
                     And she said yes.
