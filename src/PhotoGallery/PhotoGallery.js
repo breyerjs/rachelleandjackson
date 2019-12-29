@@ -53,6 +53,18 @@ const PHOTOS = [
         height: 540,
         width: 720,
     },
+    {
+        src: './src/img/sierra.jpg',
+        title: 'eastern sierras',
+        height: 4,
+        width: 6,
+    },
+    {
+        src: './src/img/pinnacles.jpg',
+        title: 'climbing',
+        height: 987,
+        width: 1480,
+    },
 ];
 
 export default function PhotoGallery(props) {
