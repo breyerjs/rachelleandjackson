@@ -25,12 +25,14 @@ const scrollToNames = {
     GETTING_THERE: 'gettingThere',
     REGISTRY: 'registry',
     ABOUT_US: 'aboutUs',
+    PHOTO_GALLERY: 'photo_gallery',
 }
 
 const quickFacts = withScroller(scrollToNames.QUICK_FACTS, <QuickFacts />);
 const gettingThere = withScroller(scrollToNames.GETTING_THERE, <GettingThere />);
 const aboutUs = withScroller(scrollToNames.ABOUT_US, <AboutUs />);
 const registry = withScroller(scrollToNames.REGISTRY, <Registry />);
+const photo_gallery = withScroller(scrollToNames.PHOTO_GALLERY, <PhotoGallery />);
 
 export default class Layout extends React.Component {
     render() {
@@ -43,7 +45,7 @@ export default class Layout extends React.Component {
                 {registry}
                 {aboutUs}
                 <Footer />
-                <PhotoGallery />
+                {photo_gallery}
             </div>
         )
     }
