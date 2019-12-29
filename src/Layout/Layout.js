@@ -11,6 +11,8 @@ import AboutUs from '../AboutUs/AboutUs';
 import Navigation from '../Navigation/Navigation';
 import Registry from '../Registry/Registry';
 import Footer from '../Footer/Footer';
+import PhotoGallery from '../PhotoGallery/PhotoGallery';
+
 
 const withScroller = (elementName, componentToWrap) => {
     return (
@@ -41,6 +43,7 @@ export default class Layout extends React.Component {
                 {registry}
                 {aboutUs}
                 <Footer />
+                <PhotoGallery />
             </div>
         )
     }
