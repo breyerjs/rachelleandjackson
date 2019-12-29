@@ -6,7 +6,7 @@ import styles from './PhotoGallery.scss';
 
 const PHOTOS = [
     {
-        src: './src/img/proposal.jpg',
+        src: './src/img/proposal.JPG',
         title: 'the proposal',
         width: 789,
         height: 592
@@ -35,7 +35,6 @@ const PHOTOS = [
         height: 2048,
         width: 1365,
     },
-    // resize here
     {
         src: './src/img/boat.jpg',
         title: 'on a boat',
