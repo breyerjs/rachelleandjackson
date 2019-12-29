@@ -30,12 +30,6 @@ const PHOTOS = [
         width: 2048,
     },
     {
-        src: './src/img/snowduck.jpg',
-        title: 'yosemite in the snow',
-        height: 2048,
-        width: 1365,
-    },
-    {
         src: './src/img/boat.jpg',
         title: 'on a boat',
         height: 1536,
@@ -46,6 +40,12 @@ const PHOTOS = [
         title: 'public transportation in the Philippines',
         height: 1536,
         width: 2048,
+    },
+    {
+        src: './src/img/snowduck.jpg',
+        title: 'yosemite in the snow',
+        height: 2048,
+        width: 1365,
     },
     {
         src: './src/img/red.jpg',
