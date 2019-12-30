@@ -6,7 +6,7 @@ export default class QuickFacts extends React.Component {
         return (
             <div>
                 <div className={styles.sectionHeader}>
-                    + Facts
+                    Facts
                 </div>
                 <div className={styles.factSectionMain}>
                     <div className={styles.factSection}>

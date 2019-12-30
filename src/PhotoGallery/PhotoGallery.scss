@@ -1,0 +1,6 @@
+@import '../index';
+
+.sectionHeader{
+    @include sectionHeaderStyles;
+    margin-bottom: 1em; // Needs some extra space at the bottom for the images.
+}

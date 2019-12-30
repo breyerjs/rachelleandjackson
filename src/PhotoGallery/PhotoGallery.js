@@ -84,6 +84,9 @@ export default function PhotoGallery(props) {
     
     return (
         <div>
+            <div className={styles.sectionHeader}>
+                Photos
+            </div>
             <Gallery 
                 photos={PHOTOS} 
                 onClick={openLightbox}

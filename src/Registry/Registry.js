@@ -11,7 +11,7 @@ export default class Registry extends React.Component {
         return (
             <div>
                 <div className={styles.sectionHeader}>
-                    + Registry
+                    Registry
                 </div>
                 Registry link coming soon!
             </div>

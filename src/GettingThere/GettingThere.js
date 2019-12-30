@@ -6,7 +6,7 @@ export default class GettingThere extends React.Component {
         return (
             <div>
                 <div className={styles.sectionHeader}>
-                    + Journey
+                    Journey
                 </div>
                 <div className={styles.gettingThereMain}>
                     <div className={styles.travelSection}>
