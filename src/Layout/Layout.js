@@ -44,8 +44,8 @@ export default class Layout extends React.Component {
                 {gettingThere}
                 {registry}
                 {aboutUs}
-                <Footer />
                 {photo_gallery}
+                <Footer />
             </div>
         )
     }
