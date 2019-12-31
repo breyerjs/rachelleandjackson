@@ -13,7 +13,7 @@ export default class Registry extends React.Component {
                 <div className={styles.sectionHeader}>
                     Registry
                 </div>
-                Registry link coming soon!
+                You can view our registry <a href={"https://registry.theknot.com/rachelle-sarmiento-jackson-breyer-august-2020-ca/31819814"} target={"_blank"}>on the Knot</a>.
             </div>
         )
     }
