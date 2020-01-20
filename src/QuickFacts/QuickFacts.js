@@ -2,7 +2,6 @@ import React from 'react';
 import styles from './QuickFacts.scss';
 import SectionWithTitle from '../Toolkit/SectionWithTitle';
 import SectionHeader from '../Toolkit/SectionHeader';
-import FlexParent from '../Toolkit/FlexParent';
 
 export default class QuickFacts extends React.Component {
     render() {

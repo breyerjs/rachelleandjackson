@@ -2,7 +2,6 @@ import React from 'react';
 import styles from './GettingThere.scss';
 import SectionWithTitle from '../Toolkit/SectionWithTitle';
 import SectionHeader from '../Toolkit/SectionHeader';
-import FlexParent from '../Toolkit/FlexParent';
 
 export default class GettingThere extends React.Component {
     render() {
