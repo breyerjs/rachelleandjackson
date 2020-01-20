@@ -8,7 +8,7 @@ export default class QuickFacts extends React.Component {
     render() {
         return (
             <div>
-                <SectionHeader title={"facts"} />
+                <SectionHeader title={"specifics"} />
 
                 <SectionWithTitle title={"ceremony transportation"}>
                     <b>Shuttle schedule:</b> TBA
