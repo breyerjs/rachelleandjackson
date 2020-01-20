@@ -8,7 +8,7 @@ export default class GettingThere extends React.Component {
     render() {
         return (
             <div>
-                <SectionHeader title={"journey"} />
+                <SectionHeader title={"travel"} />
 
                 <FlexParent>
 

@@ -17,7 +17,7 @@ export default class Program extends React.Component {
                         <br />Time TBA
                         <br /><br />
                         <a href="https://www.google.com/maps/place/Barrel+House+Tavern/@37.855213,-122.478827,15z/data=!4m2!3m1!1s0x0:0x4c410f3ca71bcd9e?sa=X&ved=2ahUKEwiWwIzwtpDnAhXJtp4KHWEpCXwQ_BIwHXoECBkQCA
-                        ">Barrel House Tavern</a>
+                        " target="_blank">Barrel House Tavern</a>
                         <br />
                         660 Bridgeway, Sausalito, CA 94965
                     </SectionWithTitle>
