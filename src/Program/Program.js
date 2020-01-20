@@ -1,26 +1,28 @@
 import React from 'react';
 import styles from './Program.scss';
+import SectionWithTitle from '../Toolkit/SectionWithTitle';
+import SectionHeader from '../Toolkit/SectionHeader';
+import FlexParent from '../Toolkit/FlexParent';
 
-export default class QuickFacts extends React.Component {
+export default class Program extends React.Component {
     render() {
         return (
             <div>
-                <div className={styles.sectionHeader}>
-                    Program
-                </div>
-                <div className={styles.factSectionMain}>
-                <div className={styles.factSection}>
-                    <div className={styles.factTitle}>Welcome Dinner</div>
-                    Friday, August 21, 2020
-                    <br />Time TBA
-                    <br /><br />
-                    <a href="https://www.google.com/maps/place/Barrel+House+Tavern/@37.855213,-122.478827,15z/data=!4m2!3m1!1s0x0:0x4c410f3ca71bcd9e?sa=X&ved=2ahUKEwiWwIzwtpDnAhXJtp4KHWEpCXwQ_BIwHXoECBkQCA
-                    ">Barrel House Tavern</a>
-                    <br />
-                    660 Bridgeway, Sausalito, CA 94965
-                </div>
-                    <div className={styles.factSection}>
-                        <div className={styles.factTitle}>Ceremony</div> 
+                <SectionHeader title={"program"} />
+                
+                <FlexParent>
+
+                    <SectionWithTitle title={"welcome dinner"}>
+                        Friday, August 21, 2020
+                        <br />Time TBA
+                        <br /><br />
+                        <a href="https://www.google.com/maps/place/Barrel+House+Tavern/@37.855213,-122.478827,15z/data=!4m2!3m1!1s0x0:0x4c410f3ca71bcd9e?sa=X&ved=2ahUKEwiWwIzwtpDnAhXJtp4KHWEpCXwQ_BIwHXoECBkQCA
+                        ">Barrel House Tavern</a>
+                        <br />
+                        660 Bridgeway, Sausalito, CA 94965
+                    </SectionWithTitle>
+
+                    <SectionWithTitle title={"ceremony"}>
                         Saturday, August 22, 2020
                         <br />
                         Time TBA
@@ -31,15 +33,13 @@ export default class QuickFacts extends React.Component {
                         <br />
                         944 Simmonds Rd, Sausalito, CA 94965
                         <br />
-                    </div>
-                    <div className={styles.factSection}>
-                        <div className={styles.factTitle}>Farewell Brunch</div>
-                        TBA
-                    </div>
-                    <div className={styles.factSection}>                     
-                        
-                    </div>
-                </div>
+                    </SectionWithTitle>
+
+                    <SectionWithTitle title={"farewell brunch"}>
+                        TBA                        
+                    </SectionWithTitle>
+
+                </FlexParent>
             </div> 
         )
     }

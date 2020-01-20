@@ -1,13 +1,14 @@
 import React from 'react';
 import styles from './AboutUs.scss';
+import SectionHeader from '../Toolkit/SectionHeader';
+
 
 export default class AboutUs extends React.Component {
     render() {
         return (
             <div className={styles.aboutContainer}>
-                <div className={styles.sectionHeader}>
-                    Story
-                </div>
+                <SectionHeader title={"story"} />
+
                 <p>
                     Rachelle and Jackson met as sparring partners in JMU's Taekwondo club.  Afterwards, they spoke at a party and eventually went out for dinner. They ate at Cally's, a mediocre American restaurant which is no longer in business. Fortunately, the conversation eclipsed the food and they began dating.
                 </p>

@@ -1,6 +1,7 @@
 import React, { useState, useCallback } from 'react';
 import Gallery from 'react-photo-gallery';
 import Carousel, { Modal, ModalGateway } from "react-images";
+import SectionHeader from '../Toolkit/SectionHeader';
 
 import styles from './PhotoGallery.scss';
 
@@ -84,9 +85,8 @@ export default function PhotoGallery(props) {
     
     return (
         <div>
-            <div className={styles.sectionHeader}>
-                Photos
-            </div>
+            <SectionHeader title={"photos"} />
+
             <Gallery 
                 photos={PHOTOS} 
                 onClick={openLightbox}

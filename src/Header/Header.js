@@ -9,7 +9,7 @@ export default class Header extends React.Component{
     render(){
         return (
             <div className={styles.header}>
-                Rachelle + Jackson
+                rachelle and jackson
             </div>
         )
     }

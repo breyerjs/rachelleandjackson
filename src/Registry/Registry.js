@@ -1,4 +1,5 @@
 import React from 'react';
+import SectionHeader from '../Toolkit/SectionHeader';
 
 import styles from './Registry.scss';
 
@@ -10,9 +11,8 @@ export default class Registry extends React.Component {
     render() {
         return (
             <div>
-                <div className={styles.sectionHeader}>
-                    Registry
-                </div>
+                <SectionHeader title={"registry"} />
+
                 You can view our registry <a href={"https://www.theknot.com/us/rachelle-sarmiento-and-jackson-breyer-aug-2020/registry"} target={"_blank"}>on the Knot</a>.
             </div>
         )
