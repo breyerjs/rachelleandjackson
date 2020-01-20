@@ -43,11 +43,13 @@ export default class Layout extends React.Component {
             <div className={styles.layoutContainer}>
                 <Header />
                 <Navigation scrollToNames={scrollToNames} />
-                {program}
-                {facts}
-                {registry}
-                {gettingThere}
-                {aboutUs}
+                <div className={styles.bodyContent}>
+                    {program}
+                    {facts}
+                    {registry}
+                    {gettingThere}
+                    {aboutUs}
+                </div>
                 {photo_gallery}
                 <Footer />
             </div>

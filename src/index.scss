@@ -1,25 +1,12 @@
-@font-face {
-    font-family: 'Din Sans';
-    src: url(/src/font/DINPro.otf) format('opentype');
-}
-
-@font-face {
-    // font-family: 'adobe-caslon-pro', serif;
-    font-family: 'Adobe Caslon', serif;    
-    src: url(/src/font/ACaslonPro-Regular.otf) format('opentype');
-}
-
 /* Global styles */
 html, body {
     // font-family: 'Din Sans', sans-serif;
     // font-family: 'ACaslonPro-Regular', serif;
     font-family: 'Cormorant Garamond', serif;
 
-
-
     font-size: 18px;
     line-height: 1.43;
-    background: #efefef;
+    // background: #efefef;
     // Top right bottom left
     padding: 0.5em 1em 0.5em 1em;
 }

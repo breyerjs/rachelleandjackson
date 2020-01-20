@@ -1,9 +1,12 @@
 @import '../index';
 
+.navMain {
+    margin-bottom: 2em;
+}
+
 .navItem {
     @include headerText;
     margin-right: 40px;
-    padding-bottom: 15px;
 }
 
 .navItem:hover{
