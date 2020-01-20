@@ -16,7 +16,7 @@ export default class GettingThere extends React.Component {
                         Oakland International Airport (OAK)
                     </div>
                     <div className={styles.travelSection}>
-                        <div className={styles.travelTitle}>Hotels</div>
+                        <div className={styles.travelTitle}>Places to Stay</div>
                         Suggested hotels TBA.
                         <br/>
                         Check back later for more info!
@@ -26,7 +26,7 @@ export default class GettingThere extends React.Component {
                         Yes, this wedding is in California. But it gets chilly as the fog rolls in! We'd suggest you bring layers.
                     </div>
                     <div className={styles.travelSection}>
-                        <div className={styles.travelTitle}>What's Good?</div>
+                        <div className={styles.travelTitle}>Need Suggestions?</div>
                         <ul className={styles.listOfYelpCollections}>
                             <li><a href="https://www.yelp.com/collection/ObkpXubOQAqMAnu4gJrSzQ" target="_blank">Restaurants</a></li>
                             <li><a href="https://www.yelp.com/collection/rK7LzLK3L5VgzyfqfDixdA" target="_blank">Things to do</a></li>
