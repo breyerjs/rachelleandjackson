@@ -15,7 +15,7 @@ export default class Program extends React.Component {
                     <br />
                     Friday, August 21, 2020
                     <br />
-                    6 pm to 9:30 pm
+                    6 pm to 9 pm
                     <br />
                     660 Bridgeway, Sausalito, CA 94965
                 </SectionWithTitle>
