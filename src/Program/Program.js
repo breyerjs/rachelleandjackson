@@ -15,7 +15,7 @@ export default class Program extends React.Component {
                     <br />
                     Friday, August 21, 2020
                     <br />
-                    Time TBA
+                    6pm to 9:30pm
                     <br />
                     660 Bridgeway, Sausalito, CA 94965
                 </SectionWithTitle>
@@ -32,7 +32,13 @@ export default class Program extends React.Component {
                 </SectionWithTitle>
 
                 <SectionWithTitle title={"farewell brunch"}>
-                    TBA                        
+                    <a href="https://www.google.com/maps/place/The+Spinnaker/@37.8588382,-122.4782071,15z/data=!4m2!3m1!1s0x0:0xa0ec245896bce8cb?sa=X&ved=2ahUKEwiaiv6d1KXnAhUqJTQIHclBBTYQ_BIwFXoECCsQCA" target='_blank'>The Spinnaker</a>
+                    <br />
+                    Sunday, August 23, 2020
+                    <br />
+                    Time TBA
+                    <br />
+                    100 Spinnaker Dr, Sausalito, CA 94965
                 </SectionWithTitle>
 
             </div> 
