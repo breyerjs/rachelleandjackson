@@ -22,7 +22,7 @@ export default class GettingThere extends React.Component {
                     <br/><br />
                     Areas to Stay: Sausalito, Presidio, Mill Valley, Tiburon
                     <br />
-                    <a href="https://photos.google.com/share/AF1QipOnBpZ2dpq32pDTYb-eNY74EB85PcH8GMLRZZKLMIQij8UcbY4FcPTF2dT_a4wqyQ/photo/AF1QipMepHiItqO9RiFgQeIIqhbaxvvN1gFyGMVvPtYO?key=dkREZllpaWp6Tkdqc2cweElVTmNBem1WakxtRHh3" target="_blank">(Here's a map Rachelle drew)</a>
+                    <a href="https://photos.google.com/share/AF1QipOnBpZ2dpq32pDTYb-eNY74EB85PcH8GMLRZZKLMIQij8UcbY4FcPTF2dT_a4wqyQ/photo/AF1QipMepHiItqO9RiFgQeIIqhbaxvvN1gFyGMVvPtYO?key=dkREZllpaWp6Tkdqc2cweElVTmNBem1WakxtRHh3" target="_blank">(here's a map Rachelle drew)</a>
                 </SectionWithTitle>
 
                 <SectionWithTitle title={"weather"}>
