@@ -15,7 +15,7 @@ export default class Program extends React.Component {
                     <br />
                     Friday, August 21, 2020
                     <br />
-                    6pm to 9:30pm
+                    6 pm to 9:30 pm
                     <br />
                     660 Bridgeway, Sausalito, CA 94965
                 </SectionWithTitle>
@@ -36,11 +36,10 @@ export default class Program extends React.Component {
                     <br />
                     Sunday, August 23, 2020
                     <br />
-                    Time TBA
+                    9 am to 11  am
                     <br />
                     100 Spinnaker Dr, Sausalito, CA 94965
                 </SectionWithTitle>
-
             </div> 
         )
     }
