@@ -17,7 +17,7 @@ export default class Program extends React.Component {
                     <br />
                     660 Bridgeway, Sausalito, CA 94965
                     <br />
-                    Hosted by John and Liz Breyer
+                    Hosted by Liz and John Breyer
                 </SectionWithTitle>
 
                 <SectionWithTitle title={"ceremony and reception"}>
