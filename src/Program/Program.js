@@ -16,6 +16,8 @@ export default class Program extends React.Component {
                     Date Forthcoming
                     <br />
                     660 Bridgeway, Sausalito, CA 94965
+                    <br />
+                    Hosted by John and Liz Breyer
                 </SectionWithTitle>
 
                 <SectionWithTitle title={"ceremony and reception"}>
@@ -25,6 +27,7 @@ export default class Program extends React.Component {
                     <br />
                     944 Simmonds Rd, Sausalito, CA 94965
                     <br />
+                    Officiated by Greg DiMattina
                 </SectionWithTitle>
 
                 <SectionWithTitle title={"farewell brunch"}>
@@ -33,6 +36,8 @@ export default class Program extends React.Component {
                     Date Forthcoming
                     <br />
                     100 Spinnaker Dr, Sausalito, CA 94965
+                    <br />
+                    Hosted by Jane and Sam Friedman
                 </SectionWithTitle>
             </div> 
         )
