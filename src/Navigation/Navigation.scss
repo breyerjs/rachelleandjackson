@@ -7,10 +7,10 @@
 .navItem {
     @include headerText;
     margin-right: 40px;
-    padding-bottom: 0.75em;
+    padding-bottom: 0.5em !important;
 }
 
 .navItem:hover{
-    border-bottom: 2px solid #33405e;
+    border-bottom: 2px solid #009bfc57;
     cursor: pointer;
 }

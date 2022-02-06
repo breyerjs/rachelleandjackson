@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 /* Global styles */
 html, body {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Raleway';
+    color: rgba(0, 0, 0, 0.692);
 
-    font-size: 18px;
-    line-height: 1.43;
-    // background: #efefef;
+    font-size: 16px;
+    line-height: 1.5;
 
     // Top right bottom left
     padding: 0.5em 1em 0.5em 1em;
@@ -15,18 +17,46 @@ section {
 }
 
 a {
-    color: black;
+    color: rgba(0, 0, 0, 0.692);
+    text-decoration: none;
 }
 
 a:visited {
-    color: black;
+    color: rgba(0, 0, 0, 0.692);
+}
+
+// Links in context
+a {
+    background: linear-gradient(to right, #009bfc33, #009bfc18);
+    background-size: 300% 40%;
+    background-repeat: no-repeat;
+    background-position: 0% 120%;
+    padding: 0;
+    border-radius: 8px;
+}
+
+a:hover {
+    background: linear-gradient(to right, #009bfc57, #009bfc33);
+    background-size: 300% 40%;
+    background-repeat: no-repeat;
+    background-position: 0% 110%;
+    padding: 0;
 }
 
 @mixin headerText {
-    font-family: 'Raleway', sans-serif;
+    // font-family: 'Raleway', sans-serif;
     font-variant: small-caps;
-    font-weight: bold;
-    font-size: 21px;
+    // font-weight: bold;
+    font-size: 24px;
     color: #33405e;
     letter-spacing: 2.5px;
+
+    background: none;
+    border-radius: 0%;
+    padding-bottom: 10px;
+
+    &:hover{ 
+        background: none;
+    }
+
 }
