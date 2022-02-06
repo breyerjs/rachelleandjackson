@@ -19,8 +19,8 @@ export default class QuickFacts extends React.Component {
                     Semi-formal. Think suit and tie or a dress. But honestly, just look nice and you're all set.
                 </SectionWithTitle>
 
-                <SectionWithTitle title={"\"...\""}>
-                    There is no cellular service at the venue, meaning rideshares are not an option. Please plan accordingly when considering transportation or mid-wedding entertainment.
+                <SectionWithTitle title={"rideshares"}>
+                    There is no cell service at the venue, so please consider <a href="https://www.uber.com/us/en/ride/how-it-works/scheduled-rides/" target='_blank'>scheduling your rideshare ahead of time</a> if needed.
                 </SectionWithTitle>
 
             </div> 

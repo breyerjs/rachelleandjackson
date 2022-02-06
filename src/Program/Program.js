@@ -13,7 +13,7 @@ export default class Program extends React.Component {
                     <a href="https://www.google.com/maps/place/Barrel+House+Tavern/@37.855213,-122.478827,15z/data=!4m2!3m1!1s0x0:0x4c410f3ca71bcd9e?sa=X&ved=2ahUKEwiWwIzwtpDnAhXJtp4KHWEpCXwQ_BIwHXoECBkQCA
                     " target="_blank">Barrel House Tavern</a>
                     <br />
-                    Date TBA
+                    June 10, 2022
                     <br />
                     660 Bridgeway, Sausalito, CA 94965
                     <br />
@@ -31,11 +31,11 @@ export default class Program extends React.Component {
                 </SectionWithTitle>
 
                 <SectionWithTitle title={"farewell brunch"}>
-                    <a href="https://www.google.com/maps/place/The+Spinnaker/@37.8588382,-122.4782071,15z/data=!4m2!3m1!1s0x0:0xa0ec245896bce8cb?sa=X&ved=2ahUKEwiaiv6d1KXnAhUqJTQIHclBBTYQ_BIwFXoECCsQCA" target='_blank'>The Spinnaker</a>
+                    <a href="https://goo.gl/maps/SsQtL4drtwnyYggc7" target='_blank'>Ondine at the Trident</a>
                     <br />
-                    Date TBA
+                    June 12, 2022
                     <br />
-                    100 Spinnaker Dr, Sausalito, CA 94965
+                    558 Bridgeway, Sausalito, CA 94965                    
                     <br />
                     Hosted by Jane and Sam Friedman
                 </SectionWithTitle>
