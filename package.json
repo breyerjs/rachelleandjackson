@@ -43,5 +43,8 @@
     "react-photo-gallery": "^8.0.0",
     "react-scroll": "^1.7.11",
     "yarn.lock": "^0.0.1-security"
+  },
+  "engines" : { 
+    "node" : "=0.12" 
   }
 }
