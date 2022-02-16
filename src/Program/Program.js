@@ -15,6 +15,8 @@ export default class Program extends React.Component {
                     <br />
                     Friday, June 10, 2022
                     <br />
+                    7 to 10 pm
+                    <br />
                     660 Bridgeway, Sausalito, CA 94965
                     <br />
                     Hosted by Liz and John Breyer
@@ -23,7 +25,9 @@ export default class Program extends React.Component {
                 <SectionWithTitle title={"ceremony and reception"}>
                     <a href="https://goo.gl/maps/Q27RgUc4VqkVPvuz9" target="_blank">Headlands Center for the Arts</a>
                     <br />
-                    Saturday June 11, 2022
+                    Saturday, June 11, 2022
+                    <br />
+                    3 to 10 pm, Ceremony to begin at 3:30
                     <br />
                     944 Simmonds Rd, Sausalito, CA 94965
                     <br />
@@ -34,6 +38,8 @@ export default class Program extends React.Component {
                     <a href="https://goo.gl/maps/SsQtL4drtwnyYggc7" target='_blank'>Ondine at the Trident</a>
                     <br />
                     Sunday, June 12, 2022
+                    <br />
+                    9 to 11 am
                     <br />
                     558 Bridgeway, Sausalito, CA 94965                    
                     <br />
