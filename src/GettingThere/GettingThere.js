@@ -39,7 +39,7 @@ export default class GettingThere extends React.Component {
                             <a href="http://www.presidiolodging.com/lodge-at-the-presidio/" target='_blank'>The Lodge at Presidio</a>
                         </li>
                         <li>
-                            <a href="http://www.presidiolodging.com/inn-at-the-presidio/" target='_blank'>In at the Presidio </a>
+                            <a href="http://www.presidiolodging.com/inn-at-the-presidio/" target='_blank'>Inn at the Presidio </a>
                         </li>
                         <li>
                             <a href="https://www.jdvhotels.com/hotels/california/san-francisco/the-laurel-inn" target='_blank'>The Laurel Inn (Pac Heights)</a>

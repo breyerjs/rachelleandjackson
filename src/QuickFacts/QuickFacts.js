@@ -9,6 +9,10 @@ export default class QuickFacts extends React.Component {
             <div>
                 <SectionHeader title={"ceremony specifics"} />
 
+                <SectionWithTitle title={"vaccinations required"}>
+                    Please note that the venue requires full vaccination against Covid-19 for all guests. 
+                </SectionWithTitle> 
+
                 <SectionWithTitle title={"transportation"}>
                     <b>Bus Shuttle:</b> TBA
                     <br/><br/>
@@ -20,7 +24,6 @@ export default class QuickFacts extends React.Component {
                 <SectionWithTitle title={"attire"}>
                     Semi-formal. Think suit and tie or a dress. But honestly, just look nice and you're all set.
                 </SectionWithTitle>
-
 
             </div> 
         )
