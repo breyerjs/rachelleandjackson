@@ -61,10 +61,10 @@ const PHOTOS = [
         width: 6,
     },
     {
-        src: './src/img/pinnacles.jpg',
+        src: './src/img/tatas_wedding.jpg',
         title: 'climbing',
-        height: 987,
-        width: 1480,
+        height: 2500,
+        width: 1667 ,
     },
 ];
 
