@@ -62,7 +62,7 @@ const PHOTOS = [
     },
     {
         src: './src/img/tatas_wedding.jpg',
-        title: 'climbing',
+        title: 'hawaii',
         height: 2500,
         width: 1667 ,
     },
