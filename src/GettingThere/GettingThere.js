@@ -16,13 +16,14 @@ export default class GettingThere extends React.Component {
                 </SectionWithTitle>
 
                 <SectionWithTitle title={"where to stay"}>
-                    Please note that a room block is coming soon. But if you want to book now:
-                    <br /><br />
-                    In Marin:
+                    Suggested Hotel:
                     <ul>
                         <li>
-                            <a href="https://www.ihg.com/holidayinnexpress/hotels/us/en/mill-valley/sfomv/hoteldetail" target='_blank'>Holiday Inn Express Mill Valley</a>
+                            <a href="https://www.ihg.com/holidayinnexpress/hotels/us/en/mill-valley/sfomv/hoteldetail" target='_blank'>Holiday Inn Express Mill Valley</a> <br />Use discount code JAR before June 3rd to save 12% 
                         </li>
+                    </ul>
+                    In Marin:
+                    <ul>
                         <li>
                             <a href="https://acquahotel.com/" target='_blank'>Acqua Hotel</a>
                         </li>
