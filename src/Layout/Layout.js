@@ -14,6 +14,7 @@ import Registry from '../Registry/Registry';
 import Footer from '../Footer/Footer';
 import PhotoGallery from '../PhotoGallery/PhotoGallery';
 
+console.log("Hello tech-savvy wedding guest! Send me a messaege if you found this. —Jackson")
 
 const withScroller = (elementName, componentToWrap) => {
     return (
