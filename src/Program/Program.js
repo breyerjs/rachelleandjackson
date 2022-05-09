@@ -27,9 +27,15 @@ export default class Program extends React.Component {
                     <br />
                     Saturday, June 11, 2022
                     <br />
-                    3 to 10 pm, Ceremony to begin at 3:30
+                    3 to 10 pm
                     <br />
                     944 Simmonds Rd, Sausalito, CA 94965
+                    <br />
+                    Ceremony begins at 3:30 pm
+                    <br />
+                    Cocktail hour begins at 4:00 pm
+                    <br />
+                    Reception begins at 5:00 pm
                     <br />
                     Officiated by Greg DiMattina
                 </SectionWithTitle>
