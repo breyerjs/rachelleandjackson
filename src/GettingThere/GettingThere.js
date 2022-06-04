@@ -9,17 +9,24 @@ export default class GettingThere extends React.Component {
             <div>
                 <SectionHeader title={"travel"} />
 
-                <SectionWithTitle title={"airports"}>
-                    San Francisco International Airport (SFO)
-                    <br/>
-                    Oakland International Airport (OAK)
+                <SectionWithTitle title={"need suggestions?"}>
+                    <ul>
+                        <li><a href="https://www.yelp.com/collection/ObkpXubOQAqMAnu4gJrSzQ" target="_blank">Restaurants</a></li>
+                        <li><a href="https://www.yelp.com/collection/rK7LzLK3L5VgzyfqfDixdA" target="_blank">Things to do</a></li>
+                        <li><a href="https://www.yelp.com/collection/052eNjwpCzvL3-1gM_btuQ" target="_blank">Bars</a></li>
+                        <li><a href="https://www.alltrails.com/explore/list/near-or-in-sf-and-north-bay-702cafa" target="_blank">Hiking Trails</a></li>
+                    </ul>
+                </SectionWithTitle>
+
+                <SectionWithTitle title={"weather"}>
+                    Colder than you'd think! We suggest you bring layers.
                 </SectionWithTitle>
 
                 <SectionWithTitle title={"where to stay"}>
                     Suggested Hotel:
                     <ul>
                         <li>
-                            <a href="https://www.ihg.com/holidayinnexpress/hotels/us/en/mill-valley/sfomv/hoteldetail" target='_blank'>Holiday Inn Express Mill Valley</a> <br />Use discount code JAR before June 3rd to save 12% 
+                            <a href="https://www.ihg.com/holidayinnexpress/hotels/us/en/mill-valley/sfomv/hoteldetail" target='_blank'>Holiday Inn Express Mill Valley</a>
                         </li>
                     </ul>
                     In Marin:
@@ -70,18 +77,6 @@ export default class GettingThere extends React.Component {
                         <li>Presidio</li>
                         <li>Inner or Outer Richmond</li>
                         <li>Cole Valley</li>
-                    </ul>
-                </SectionWithTitle>
-
-                <SectionWithTitle title={"weather"}>
-                    Yes, this wedding is in California. But it gets chilly as the fog rolls in! We'd suggest you bring layers.
-                </SectionWithTitle>
-
-                <SectionWithTitle title={"need suggestions?"}>
-                    <ul>
-                        <li><a href="https://www.yelp.com/collection/ObkpXubOQAqMAnu4gJrSzQ" target="_blank">Restaurants</a></li>
-                        <li><a href="https://www.yelp.com/collection/rK7LzLK3L5VgzyfqfDixdA" target="_blank">Things to do</a></li>
-                        <li><a href="https://www.yelp.com/collection/052eNjwpCzvL3-1gM_btuQ" target="_blank">Bars</a></li>
                     </ul>
                 </SectionWithTitle>
 

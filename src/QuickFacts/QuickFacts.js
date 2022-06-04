@@ -16,14 +16,14 @@ export default class QuickFacts extends React.Component {
                 <SectionWithTitle title={"transportation"}>
                     <b> Shuttle Schedule:</b> 
                     <ul>
-                        <li>Pickup for ceremony begins: 2:00 pm</li>
+                        <li>Pickup begins: 2:00 pm</li>
                         <li>Ceremony begins: 3:30 pm</li>
-                        <li>Return from reception begins: 8:00 pm and 10:00 pm</li>
+                        <li>Return begins: 8:00 pm and 10:00 pm</li>
                         <li>Route (reversed for return trips):</li>
                             <ul>
+                                <li><a href="https://goo.gl/maps/1d4samSnnSvBZuGT7" target="_blank">Travelodge Mill Valley</a></li>
                                 <li><a href="https://goo.gl/maps/Hooo7N9w3V12q3c19" target="_blank">Holiday Inn Express Mill Valley</a></li>
                                 <li><a href="https://goo.gl/maps/uwTMhPuGSuTozmMM6" target="_blank">Sausalito Ferry Landing</a></li>
-                                <li><a href="https://g.page/CavalloPointLodge?share" target="_blank">Cavallo Point Lodge</a></li>
                                 <li><a href="https://goo.gl/maps/XfzRvE7zm2Qu1eMZ6" target="_blank">Headlands Center for the Arts</a></li>
                             </ul>
                     </ul>
