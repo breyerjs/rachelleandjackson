@@ -27,7 +27,7 @@ export default class QuickFacts extends React.Component {
                                 <li><a href="https://goo.gl/maps/XfzRvE7zm2Qu1eMZ6" target="_blank">Headlands Center for the Arts</a></li>
                             </ul>
                     </ul>
-                    <b>Parking:</b> There's parking behind the venue as well as at the <a href="https://goo.gl/maps/VYh8YyxemrQNY31P9" target="_blank">visitor center</a> down the hill.
+                    <b>Parking:</b> There's parking behind the venue as well as at the <a href="https://goo.gl/maps/VYh8YyxemrQNY31P9" target="_blank">visitor center</a> down the hill. If you plan to drive, note that there is no cell service at the venue. Please either download the offline map, or print out directions. 
                     <br/><br/>
                     <b>Rideshares:</b> There is no cell service at the venue. So while You can take a rideshare to the wedding, you may not be able to secure a return. Consider taking the shuttle on your return trip. 
                 </SectionWithTitle>
