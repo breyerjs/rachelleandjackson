@@ -36,7 +36,7 @@
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "classnames": "^2.2.6",
     "copy-webpack-plugin": "^5.0.2",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-images": "^1.1.0-beta.0",
